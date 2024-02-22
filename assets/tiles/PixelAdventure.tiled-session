@@ -12,11 +12,11 @@
                 3,
                 2
             ],
-            "scale": 1.5,
+            "scale": 1,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 331.66666666666663,
-                "y": 215
+                "x": 425.5,
+                "y": 334.5
             }
         },
         "C:/Users/adoca/runner/assets/assets/tiles/Level_02.tmx": {
@@ -24,11 +24,11 @@
                 3,
                 2
             ],
-            "scale": 1.5,
-            "selectedLayer": 1,
+            "scale": 1.3893749999999998,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 319.66666666666663,
-                "y": 184.33333333333334
+                "x": 320.64777327935235,
+                "y": 184.61538461538467
             }
         },
         "C:/Users/adoca/runner/assets/assets/tiles/Level_03.tmx": {
@@ -36,11 +36,35 @@
                 3,
                 2
             ],
-            "scale": 1.5,
+            "scale": 1.3893749999999998,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 320.64777327935235,
+                "y": 184.61538461538467
+            }
+        },
+        "C:/Users/adoca/runner/assets/assets/tiles/Level_04.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2
+            ],
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 358.5,
+                "y": 221.5
+            }
+        },
+        "C:/Users/adoca/runner/assets/assets/tiles/Level_05.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2
+            ],
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 357.66666666666663,
-                "y": 245
+                "x": 434.5,
+                "y": 281.5
             }
         },
         "PixelAdventure.tsx": {
@@ -60,7 +84,7 @@
         "C:/Users/adoca/runner/assets/assets/tiles/Level_03.tmx"
     ],
     "project": "PixelAdventure.tiled-project",
-    "property.type": "string",
+    "property.type": "float",
     "recentFiles": [
         "PixelAdventure.tsx",
         "C:/Users/adoca/runner/assets/assets/tiles/Level_03.tmx",

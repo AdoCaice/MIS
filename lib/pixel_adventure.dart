@@ -14,10 +14,10 @@ class PixelAdventure extends FlameGame with HasKeyboardHandlerComponents, DragCa
   late CameraComponent cam;
   Player player = Player(character: 'Ninja Frog');
   late JoystickComponent joystick;
-  bool showJoystick = false;
+  bool showJoystick = true;
   bool playSounds = false;
   double soundVolume = 1.0;
-  List<String> levelNames = ['Level_01','Level_02','Level_03'];
+  List<String> levelNames = ['Level_01','Level_02','Level_03','Level_04','Level_05'];
   int currentLevelIndex = 0;
 
   @override
