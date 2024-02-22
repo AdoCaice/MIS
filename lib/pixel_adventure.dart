@@ -16,6 +16,8 @@ class PixelAdventure extends FlameGame with HasKeyboardHandlerComponents, DragCa
   Player player = Player(character: 'Ninja Frog');
   late JoystickComponent joystick;
   bool showJoystick = false;
+  bool playSounds = false;
+  double soundVolume = 1.0;
   List<String> levelNames = ['Level_01','Level_02','Level_03'];
   int currentLevelIndex = 0;
 
@@ -90,11 +92,10 @@ class PixelAdventure extends FlameGame with HasKeyboardHandlerComponents, DragCa
   void _loadLevel() {
     Future.delayed(const Duration(seconds: 1),(){
     Level world = Level(levelName: levelNames[currentLevelIndex], player: player);
-
+    removeWhere((component) => component is Level);
     cam = CameraComponent.withFixedResolution(world: world ,width: 640, height: 360);
     cam.viewfinder.anchor = Anchor.topLeft;
     addAll([cam, world]); 
-
     });
     
   }

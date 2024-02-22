@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "C:/Users/adoca/runner/assets/assets/tiles/Level_02.tmx",
+    "activeFile": "C:/Users/adoca/runner/assets/assets/tiles/Level_01.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
@@ -13,10 +13,10 @@
                 2
             ],
             "scale": 1.5,
-            "selectedLayer": 0,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 372.99999999999994,
-                "y": 173.66666666666669
+                "x": 331.66666666666663,
+                "y": 215
             }
         },
         "C:/Users/adoca/runner/assets/assets/tiles/Level_02.tmx": {
@@ -27,8 +27,8 @@
             "scale": 1.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 368.33333333333337,
-                "y": 259.6666666666667
+                "x": 319.66666666666663,
+                "y": 184.33333333333334
             }
         },
         "C:/Users/adoca/runner/assets/assets/tiles/Level_03.tmx": {
@@ -39,8 +39,8 @@
             "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 358.33333333333337,
-                "y": 245.66666666666669
+                "x": 357.66666666666663,
+                "y": 245
             }
         },
         "PixelAdventure.tsx": {
@@ -56,13 +56,15 @@
     "openFiles": [
         "PixelAdventure.tsx",
         "C:/Users/adoca/runner/assets/assets/tiles/Level_01.tmx",
-        "C:/Users/adoca/runner/assets/assets/tiles/Level_02.tmx"
+        "C:/Users/adoca/runner/assets/assets/tiles/Level_02.tmx",
+        "C:/Users/adoca/runner/assets/assets/tiles/Level_03.tmx"
     ],
     "project": "PixelAdventure.tiled-project",
     "property.type": "string",
     "recentFiles": [
         "PixelAdventure.tsx",
-        "C:/Users/adoca/runner/assets/assets/tiles/Level_01.tmx",
-        "C:/Users/adoca/runner/assets/assets/tiles/Level_02.tmx"
+        "C:/Users/adoca/runner/assets/assets/tiles/Level_03.tmx",
+        "C:/Users/adoca/runner/assets/assets/tiles/Level_02.tmx",
+        "C:/Users/adoca/runner/assets/assets/tiles/Level_01.tmx"
     ]
 }

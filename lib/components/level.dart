@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flame/components.dart';
 import 'package:flame_tiled/flame_tiled.dart';
-import 'package:flutter/material.dart';
 import 'package:runner/components/background_tile.dart';
 import 'package:runner/components/checkpoint.dart';
 import 'package:runner/components/collision_block.dart';
