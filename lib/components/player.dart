@@ -10,6 +10,7 @@ import 'package:runner/components/collision_block.dart';
 import 'package:runner/components/custom_hitbox.dart';
 import 'package:runner/components/fruit.dart';
 import 'package:runner/components/saw.dart';
+import 'package:runner/components/spike.dart';
 import 'package:runner/components/utils.dart';
 import 'package:runner/pixel_adventure.dart';
 
@@ -95,7 +96,7 @@ with HasGameRef<PixelAdventure>, KeyboardHandler, CollisionCallbacks{
   void onCollisionStart(Set<Vector2> intersectionPoints, PositionComponent other) {
      if(!reachedCheckpoint){
       if(other is Fruit) other.collidedWithPlayer();
-      if(other is Saw) _respawn();
+      if(other is Saw || other is Spike) _respawn();
       if(other is Checkpoint) _reachedCheckpoint();
     }
     super.onCollisionStart(intersectionPoints, other);

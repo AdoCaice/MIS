@@ -8,6 +8,7 @@ import 'package:runner/components/collision_block.dart';
 import 'package:runner/components/fruit.dart';
 import 'package:runner/components/player.dart';
 import 'package:runner/components/saw.dart';
+import 'package:runner/components/spike.dart';
 import 'package:runner/pixel_adventure.dart';
 
 
@@ -87,6 +88,13 @@ class Level extends World with HasGameRef<PixelAdventure>{
           size: Vector2(spawnPoint.width,spawnPoint.height)
         );
         add(checkpoint);
+          break;
+        case'Spike':
+        final spike = Spike(
+          position: Vector2(spawnPoint.x, spawnPoint.y),
+          size: Vector2(spawnPoint.width,spawnPoint.height)
+          );
+          add(spike);
           break;
         default:
       }
